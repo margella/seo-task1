@@ -1,0 +1,238 @@
+header {
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-image: url(img/header-background.jpg);
+	clear: both;
+}
+
+body {
+	background: #ff6d6d;
+}
+
+.Section2 {
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: start;
+	width: 60%;
+	height: 100%;
+	padding: 0 5%;
+	background: white;
+	clear: both;	
+}
+
+.Section3 {
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background: #f6f5f3;
+	clear: both;	
+}
+
+.FeaturesSection {
+	display: flex; 
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: #f4f6f7;
+	clear: both;	
+}
+
+.Feature {
+	border: 1px solid #f4f6f7; 
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	background: #f4f6f7;
+	clear: both;	
+}
+
+.Description {
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: start;
+	margin-left: 30%;
+	width: 70%;
+	height: 70%;
+	padding: 0 5%;
+	background: #ffffff;
+	clear: both;	 
+}
+
+.Clients {
+	display: flex; 
+	flex-direction: row;	
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+	padding: 3%;
+	background-image: url(img/clients-background.jpg);
+	clear: both; 
+}
+
+.Client {
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	padding: 5%;
+	clear: both; 
+}
+
+.Clients-logos {
+	display: flex; 
+	flex-direction: row;	
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 15%;
+	padding: 3%;
+	background-image: url(img/clients-background.jpg);
+	clear: both; 
+}
+
+.Client-logo {
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+	padding: 3%;
+	clear: both; 
+}
+
+.Browser {
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding-top: 3%;
+	background: #f4f6f7;
+	clear: both;	 
+}
+
+.TryNow {
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+	padding: 5%;
+	background: #323969;
+	clear: both; 
+}
+
+.SingUp {
+	display: flex; 
+	flex-direction: row;	
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 1%;
+	clear: both; 
+}
+
+footer { 
+	display: flex; 
+	flex-direction: row;	
+	justify-content: center;
+	align-items: start;
+	width: 100%;
+	height: 40%;
+	background: #f4f6f7;
+	clear: both;	
+}
+
+.Page {
+	display: flex; 
+	flex-direction: column;	
+	justify-content: space-around;
+	align-items: center;
+	width: 25%;
+	background: #f4f6f7;
+	clear: both;	 
+}
+
+h1 {
+	color: gray;
+	margin: 1%;
+}
+
+h2 {
+	color: #ff6d6d;
+	font-size: x-small;
+	margin: 0%;
+}
+
+h3 {
+	color: black;
+	font-size: xx-large;
+	margin: 1%;
+}
+
+h4 {
+	color: black;
+	margin: 7%;
+}
+
+h5 {
+	color: white;
+	margin: 1%;
+}
+
+h6 {
+	color: white;
+	font-size: xx-large;
+	margin: 1%;
+}
+
+p {
+	color: gray;
+}
+
+button {
+	color: white;
+	background: #ff6d6d; 
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	width: 18%;
+	padding: 1%;
+	margin: 1%;
+}
+
+form {
+	color: white;
+	background: #474d78;
+	border: 1px solid white;
+	display: flex; 
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	width: 18%;
+	padding: 1%;
+	margin: 1%;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+	text-align: left;
+}
